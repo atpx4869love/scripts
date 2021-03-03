@@ -1,5 +1,5 @@
 const $ = new Env('百度签到')
-$.VAL_cookies = $.getdata('chavy_cookie_tieba') || $.getdata('CookieTB')
+$.VAL_cookies = 'Cookie: SG_FW_VER=1.26.3; SP_FW_VER=3.230.35; BAIDUCUID=gaS2ajukvfgoiviK_u2d8lacvagxav8cga2Q8_8n2u_wuviz_a2uiYi51a01fSR_w9DmA; BAIDUZID=xOgqi7o62uXLKqFdaVg1B8pjdt6BeiLMN8qxu97TSvISdWtlqM2u_9aICpz2JEJVR4qST3CLDGDOVT68ZKVayZg; TBBRAND=iPhone; _client_version=12.3.3; caid=; BDUSS=U9CVXhJNHhjTTBjYjNKeDlvY3hVOVhzajRKMzBwdnEzSzdWNTdYR2l-VnJHajlnRVFBQUFBJCQAAAAAAAAAAAEAAABJ-CsTYXRweDQ4Njlsb3ZlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGuNF2BrjRdgU; BAIDUID=D1BC2AE17F9D9A35A0D24A573AECA2E6:FG=1; BAIDU_WISE_UID=wapp_1604589706583_257'
 
 $.CFG_isOrderBars = $.getdata('CFG_tieba_isOrderBars') || 'false' // 1: 经验排序, 2: 连签排序
 $.CFG_maxShowBars = $.getdata('CFG_tieba_maxShowBars') * 1 || 15 //每次通知数量
